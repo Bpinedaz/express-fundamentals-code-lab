@@ -2,9 +2,9 @@
   "name": "expresslab",
   "version": "1.0.0",
   "description": "Express lab",
-  "main": "app.js",
+  "main": "nodemon app.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "start": "nodemon app.js"
   },
   "jest": {
     "moduleNameMapper": {
